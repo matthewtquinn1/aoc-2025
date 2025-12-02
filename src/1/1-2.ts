@@ -1,5 +1,6 @@
-const fs = require('fs');
-const data = fs.readFileSync('./input.txt', 'utf8');
+import fs = require('fs');
+
+const data = fs.readFileSync('./src/1/input.txt', 'utf8');
 
 const startingPosition = 50;
 let currentPosition = startingPosition;

@@ -1,8 +1,8 @@
-// Get the input.
-const fs = require('fs');
-const data = fs.readFileSync('./input.txt', 'utf8');
+import fs = require('fs');
 
-function movePosition(newPosition) {
+const data = fs.readFileSync('./src/1/input.txt', 'utf8');
+
+function movePosition(newPosition: number) {
     const maxPositions = 100;
     return ((newPosition % maxPositions) + maxPositions) % maxPositions;
 }

@@ -1,0 +1,5 @@
+# dependencies (bun install)
+node_modules
+
+# Ignore AoC input files
+src/*.txt
