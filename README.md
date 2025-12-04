@@ -32,3 +32,4 @@ Example: `npx ts-node .\src\1\2.ts`
 
 - Day One: I thought I understood Modulo...
 - Day Two: Factor in a bit of trust that these are doable.
+- Day Three: Part one 15 minutes, part two...1 day! Way over complicated it.
